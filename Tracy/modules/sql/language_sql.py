@@ -1,6 +1,7 @@
 import itertools
 import Tracy.modules.sql.language_sql as sql
 
+from Tracy.modules.sql.language_sql import get_chat_lang
 from typing import Union, List, Dict, Callable, Generator, Any
 
 from collections.abc import Iterable
@@ -9,7 +10,7 @@ from telegram import Update, InlineKeyboardMarkup, InlineKeyboardButton
 
 from Tracy import dispatcher
 from Tracy.modules.helper_funcs.chat_status import user_admin, user_admin_no_reply
-from Tracy.language import get_string, get_languages, get_language
+from Tracy.language import get_string, get_languages, get_language, get_chat_lang
 
 
 def paginate(iterable: Iterable, page_size: int) -> Generator[List, None, None]:
