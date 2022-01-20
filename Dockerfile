@@ -1,11 +1,11 @@
-FROM debian:11
-FROM python:3.9.7-slim-buster
+FROM debian:11.2
+FROM python:3.9.10-slim-buster
 
 WORKDIR /Tracy/
 
 RUN apt-get update && apt-get upgrade -y
 RUN apt-get -y install git
-RUN python3.9 -m pip install -U pip
+RUN python3.9.10 -m pip install -U pip
 RUN apt-get install -y wget python3-pip curl bash neofetch ffmpeg software-properties-common
 
 COPY requirements.txt .
