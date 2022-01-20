@@ -207,4 +207,3 @@ def upload_text(data: str) -> typing.Optional[str]:
     url = list(urlparse(urljoin("https://bin.nixnet.services", data["url"])))
     url[5] = base58.b58encode(passphrase).decode()
     return urlunparse(url)
-

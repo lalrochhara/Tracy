@@ -177,7 +177,9 @@ def config(client, message):
             "❗ **Group Creator Required**\n__You have to be the group creator to do that.__"
         )
 
+
 def helps(chat):
     return gs(chat, "fsub_feds_help")
+
 
 __mod_name__ = "F-Sub/Feds"

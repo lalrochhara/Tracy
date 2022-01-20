@@ -218,6 +218,7 @@ def bluetext_ignore_list(update: Update, context: CallbackContext):
 def helps(chat):
     return gs(chat, "cleaner_help")
 
+
 SET_CLEAN_BLUE_TEXT_HANDLER = CommandHandler(
     "cleanblue", set_blue_text_must_click, run_async=True
 )

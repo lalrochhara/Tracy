@@ -545,4 +545,5 @@ def __chat_settings__(chat_id, _):
 def helps(chat):
     return gs(chat, "locks_help")
 
+
 __mod_name__ = "Locks"
