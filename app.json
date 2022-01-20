@@ -123,7 +123,7 @@
          "description": "Required for timezone information. Get yours from https://timezonedb.com/api",
          "required": true,
          "value": "-xyz"
-     }, 
+      }, 
 
       "API_OPENWEATHER": {
         "description": "Get your own APPID from https://api.openweathermap.org/data/2.5/weather",
@@ -135,11 +135,11 @@
          "description": "ID of users who are Devs of your bot (can use /py etc.). If you are a noob and would come and bother Masha support then keep the current ID's here at they are and add yours.",
          "required": false,
          "value": ""
-     },
-        "ARQ_API": {
+      },
+      "ARQ_API": {
             "description": "Get this from @ARQRobot.",
             "required": true
-        },
+      },
 
       "sw_api": {
          "description": "Spamwatch API Token, Get one from @SpamWatchBot.",
@@ -212,10 +212,10 @@
          "description": "Set this to True if you want to delete command messages from users who don't have the perms to run that command.",
          "value": "True"
       },
-        "ARQ_API": {
+      "ARQ_API": {
             "description": "Get this from @ARQRobot.",
             "required": true
-        },
+      },
       "BAN_STICKER": {
          "description": "ID of the sticker you want to use when banning people.",
          "required": false,
@@ -226,6 +226,5 @@
          "required": false,
          "value": ""
       }
-      
    }
 }
