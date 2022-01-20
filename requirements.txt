@@ -48,6 +48,7 @@ Pyrogram
 PyDictionary
 git+https://github.com/Sorrybabe/downloader
 youtube_search
+youtube-search-python
 lyrics_extractor
 asyncio
 cloudscraper
