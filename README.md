@@ -1,10 +1,10 @@
 <p align="center">
-  <img src="https://telegra.ph/file/7d2fab979a7f4b5dd3af5.jpg">
+  <img src="https://telegra.ph//file/422c29ca05636dbd6dca3.jpg">
 </p>
 
 <h4><p align="center"> Tracy </p></h4>
 
-<p align="center">Tracy Robot is a modular bot running on python3 with anime theme and have a lot features.</p>
+<p align="center">Tracy is a modular bot running on python3 with anime theme and have a lot features.</p>
 
 <p align="center">
 <a href="https://t.me/TracyBot"> <img src="https://img.shields.io/badge/Tracy-blue?&logo=telegram" alt="Tracy on Telegram" /> </a><br>
