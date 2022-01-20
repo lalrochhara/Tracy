@@ -479,8 +479,7 @@ def Tracy_about_callback(update, context):
 
     elif query.data == "Tracy_credit":
         query.message.edit_text(
-            text=f"<b>๏ Credis for Tracy</b>\n"
-            f"\nHere Developers Making The Tracy",
+            text=f"<b>๏ Credis for Tracy</b>\n" f"\nHere Developers Making The Tracy",
             parse_mode=ParseMode.HTML,
             reply_markup=InlineKeyboardMarkup(
                 [

@@ -450,8 +450,10 @@ def __stats__():
         sql.num_blacklist_filter_chats(),
     )
 
+
 def helps(chat):
     return gs(chat, "blacklist_help")
+
 
 __mod_name__ = "Blacklists"
 

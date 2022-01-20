@@ -400,8 +400,10 @@ def connect_button(update, context):
     else:
         connect_chat(update, context)
 
+
 def helps(chat):
     return gs(chat, "connection_help")
+
 
 __mod_name__ = "Connection"
 

@@ -317,10 +317,8 @@ if is_module_loaded(FILENAME):
     def __chat_settings__(chat_id, user_id):
         return build_curr_disabled(chat_id)
 
-
     def helps(chat):
         return gs(chat, "disabling_help")
-
 
     DISABLE_HANDLER = CommandHandler("disable", disable, run_async=True)
     DISABLE_MODULE_HANDLER = CommandHandler(
