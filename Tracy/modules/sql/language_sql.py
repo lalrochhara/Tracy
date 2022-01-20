@@ -9,7 +9,7 @@ from telegram import Update, InlineKeyboardMarkup, InlineKeyboardButton
 
 from Tracy import dispatcher
 from Tracy.modules.helper_funcs.chat_status import user_admin, user_admin_no_reply
-from Tracy.language import get_string, get_languages, get_language, get_chat_lang
+from Tracy.language import get_string, get_languages, get_language
 
 
 def paginate(iterable: Iterable, page_size: int) -> Generator[List, None, None]:
