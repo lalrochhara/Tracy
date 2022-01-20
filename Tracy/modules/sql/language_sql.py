@@ -1,7 +1,6 @@
 import itertools
 import Tracy.modules.sql.language_sql as sql
 
-from Tracy.modules.sql.language_sql import get_chat_lang
 from typing import Union, List, Dict, Callable, Generator, Any
 
 from collections.abc import Iterable
